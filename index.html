@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samar</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samar </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Boostrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
     <!-- Icons flaticon -->
-    <link rel="stylesheet" href="./icons/flaticon/flaticon.css">
+    <link rel="stylesheet" href="./icons/flaticon/flaticon.css" />
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" />
-    <link rel="stylesheet"
-        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
     <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <!-- My Css -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
-    <header>
+  <body>
+    <!-- <header>
         <div class="header__content">
             <div class="container ">
                 <div class="logo_header">
@@ -78,546 +95,655 @@
                     <a href="#">Get A Quote</a>
                 </div>
             </div>
+    </header> -->
+    <header class="header">
+      <div class="header-wrapper py-3">
+        <div class="header-logo">
+          <a href="#" class="block">
+            <img src="./images/logo-2.png" alt="" />
+          </a>
+        </div>
+        <div class="header-navbar">
+          <div class="header-navbar-menu">
+            <div class="navbar-menu-item">
+              <a href="#" class="block">
+                <span>Home</span>
+                <i class="fa fa-chevron-down"></i>
+              </a>
+            </div>
+            <div class="navbar-menu-item">
+              <a href="#" class="block">
+                <span>Pages</span>
+                <i class="fa fa-chevron-down"></i>
+              </a>
+            </div>
+            <div class="navbar-menu-item">
+              <a href="#" class="block">
+                <span>Services</span>
+                <i class="fa fa-chevron-down"></i>
+              </a>
+            </div>
+            <div class="navbar-menu-item">
+              <a href="#" class="block">
+                <span>Post Layouts</span>
+                <i class="fa fa-chevron-down"></i>
+              </a>
+            </div>
+            <div class="navbar-menu-item">
+              <a href="#" class="block">
+                <span>Blog</span>
+                <i class="fa fa-chevron-down"></i>
+              </a>
+            </div>
+            <div class="navbar-menu-item">
+              <a href="#" class="block">
+                <span>Contact Us</span>
+                <i class="fa fa-chevron-down"></i>
+              </a>
+            </div>
+          </div>
+          <div class="header-navbar-button ml-3">
+              <button class="btn  rounded-pill gradient">Get A Quote</button>
+          </div>
+        </div>
+      </div>
     </header>
     <section class="carousel">
-        <div class="page_content">
-            <div class="banner_two">
-                <div class="container">
-                    <div class="banner_inner">
-                        <div class="row">
-                            <div class="col7">
-                                <div class="banner_content">
-                                    <h6>We are The Best</h6>
-                                    <h1>Freelance Product Designer Running</h1>
-                                    <p>We develop the relationships that underpin the next phase in your <br>
-                                        organisation’s growth.
-                                    <ul>
-                                        <li>Master's degree in designing</li>
-                                        <li>Outstanding mobile design</li>
-                                    </ul>
-                                    <a href="#">Get Started</a>
-                                </div>
-                            </div>
-                            <div class="col5">
-                                <div class="banner_media">
-                                    <img src="./images/pic3_1.png" alt="">
-                                    <div class="move_2">
-                                        <img src="./images/pic1.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="page_content">
+        <div class="banner_two">
+          <div class="container">
+            <div class="banner_inner">
+              <div class="row">
+                <div class="col7">
+                  <div class="banner_content">
+                    <h6>We are The Best</h6>
+                    <h1>Freelance Product Designer Running</h1>
+                    <p>
+                      We develop the relationships that underpin the next phase
+                      in your <br />
+                      organisation’s growth.
+                    </p>
+
+                    <ul>
+                      <li>Master's degree in designing</li>
+                      <li>Outstanding mobile design</li>
+                    </ul>
+                    <a href="#">Get Started</a>
+                  </div>
                 </div>
+                <div class="col5">
+                  <div class="banner_media">
+                    <img src="./images/pic3_1.png" alt="" />
+                    <div class="move_2">
+                      <img src="./images/pic1.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- BLOG -->
     <section class="blog_content">
-        <div class="container">
-            <div class="section_head">
-                <h6 class="sub_title">What We Do Best</h6>
-                <h2 class="Title">Our Digital Services</h2>
-            </div>
-            <div class="row">
-                <div class="col4">
-                    <div class="icon_wraper">
-                        <div class="icon_media">
-                            <img src="./images/pic1_3.jpg" width="215" alt="">
-                        </div>
-                        <div class="icon_content">
-                            <h4 class="dlab_title">Web Development</h4>
-                            <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis
-                                magna quis.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col4">
-                    <div class="icon_wraper">
-                        <div class="icon_media">
-                            <img src="./images/pic2_2.jpg" width="215" alt="">
-                        </div>
-                        <div class="icon_content">
-                            <h4 class="dlab_title">Strategy & Research</h4>
-                            <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis
-                                magna quis.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col4">
-                    <div class="icon_wraper">
-                        <div class="icon_media">
-                            <img src="./images/pic3_2.jpg" width="215" alt="">
-                        </div>
-                        <div class="icon_content">
-                            <h4 class="dlab_title">Growth Tracking</h4>
-                            <p>Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis
-                                magna quis.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section_head">
+          <h6 class="sub_title">What We Do Best</h6>
+          <h2 class="Title">Our Digital Services</h2>
         </div>
+        <div class="row">
+          <div class="col4">
+            <div class="icon_wraper">
+              <div class="icon_media">
+                <img src="./images/pic1_3.jpg" width="215" alt="" />
+              </div>
+              <div class="icon_content">
+                <h4 class="dlab_title">Web Development</h4>
+                <p>
+                  Vestibulum a efficitur ex. Ut iaculis dapibus iaculis.
+                  Praesent lacus magna, rhoncus quis magna quis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col4">
+            <div class="icon_wraper">
+              <div class="icon_media">
+                <img src="./images/pic2_2.jpg" width="215" alt="" />
+              </div>
+              <div class="icon_content">
+                <h4 class="dlab_title">Strategy & Research</h4>
+                <p>
+                  Vestibulum a efficitur ex. Ut iaculis dapibus iaculis.
+                  Praesent lacus magna, rhoncus quis magna quis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col4">
+            <div class="icon_wraper">
+              <div class="icon_media">
+                <img src="./images/pic3_2.jpg" width="215" alt="" />
+              </div>
+              <div class="icon_content">
+                <h4 class="dlab_title">Growth Tracking</h4>
+                <p>
+                  Vestibulum a efficitur ex. Ut iaculis dapibus iaculis.
+                  Praesent lacus magna, rhoncus quis magna quis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- About Us -->
     <section class="about_content">
-        <div class="container">
-            <div class="row">
-                <div class="col6">
-                    <div class="media_left">
-                        <img src="./images/pic1.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col6">
-                    <div class="section_head">
-                        <h6 class="sub_title">About Us</h6>
-                        <h2 class="title">Build Your Business Website Better</h2>
-                        <p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. Vivamus
-                            blandit, dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis neque et nulla.
-                            Sed euismod turpis id nibh suscipit semper. Pellentesque dapibus risus arcu.</p>
-                    </div>
-                    <ul class="list_check">
-                        <li>We support programs that create advancement opportunities for people.</li>
-                        <li>Get a view of events and trends. Be updated on our recent news.</li>
-                        <li>Finally, it all comes down to people. Creating a winning team.</li>
-                        <li>Get a view of events and trends. Be updated on our recent news.</li>
-                    </ul>
-                    <a href="#">Learn More</a>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col6">
+            <div class="media_left">
+              <img src="./images/pic1.jpg" alt="" />
             </div>
+          </div>
+          <div class="col6">
+            <div class="section_head">
+              <h6 class="sub_title">About Us</h6>
+              <h2 class="title">Build Your Business Website Better</h2>
+              <p>
+                Proin laoreet leo vel enim gravida, at porttitor metus
+                ultricies. Cras eu velit enim. Vivamus blandit, dolor ut aliquet
+                rutrum, ex elit mattis sapien, non molestie felis neque et
+                nulla. Sed euismod turpis id nibh suscipit semper. Pellentesque
+                dapibus risus arcu.
+              </p>
+            </div>
+            <ul class="list_check">
+              <li>
+                We support programs that create advancement opportunities for
+                people.
+              </li>
+              <li>
+                Get a view of events and trends. Be updated on our recent news.
+              </li>
+              <li>
+                Finally, it all comes down to people. Creating a winning team.
+              </li>
+              <li>
+                Get a view of events and trends. Be updated on our recent news.
+              </li>
+            </ul>
+            <a href="#">Learn More</a>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Counters -->
     <section class="counter_content">
-        <div class="container">
-            <div class="row">
-                <div class="col3">
-                    <div class="dlab_content">
-                        <div class="icon_radius">
-                            <span class="icon_cell">
-                                <i class="flaticon-smile"></i>
-                            </span>
-                        </div>
-                        <div class="icon_content">
-                            <h2 class="random_number">
-                                <span class="counter">18 Ml</span>
-                            </h2>
-                            <span class="title">Satisfied Clients</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col3">
-                    <div class="dlab_content">
-                        <div class="icon_radius">
-                            <span class="icon_cell">
-                                <i class="flaticon-smile"></i>
-                            </span>
-                        </div>
-                        <div class="icon_content">
-                            <h2 class="random_number">
-                                <span class="counter_number">20 Ml</span>
-                            </h2>
-                            <span class="title">Project Completed</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col3">
-                    <div class="dlab_content">
-                        <div class="icon_radius">
-                            <span class="icon_cell">
-                                <i class="flaticon-smile"></i>
-                            </span>
-                        </div>
-                        <div class="icon_content">
-                            <h2 class="random_number">
-                                <span class="counter_number">30 Ml</span>
-                            </h2>
-                            <span class="title">Project Lunched</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col3">
-                    <div class="dlab_content">
-                        <div class="icon_radius">
-                            <span class="icon_cell">
-                                <i class="flaticon-smile"></i>
-                            </span>
-                        </div>
-                        <div class="icon_content">
-                            <h2 class="random_number">
-                                <span class='counter_number' data-min='1' data-max='50' data-delay='5'
-                                    data-increment='10'>50</span>
-                            </h2>
-                            <span class="title">Years Completed</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col3">
+            <div class="dlab_content">
+              <div class="icon_radius">
+                <span class="icon_cell">
+                  <i class="flaticon-smile"></i>
+                </span>
+              </div>
+              <div class="icon_content">
+                <h2 class="random_number">
+                  <span class="counter">18 Ml</span>
+                </h2>
+                <span class="title">Satisfied Clients</span>
+              </div>
             </div>
+          </div>
+          <div class="col3">
+            <div class="dlab_content">
+              <div class="icon_radius">
+                <span class="icon_cell">
+                  <i class="flaticon-smile"></i>
+                </span>
+              </div>
+              <div class="icon_content">
+                <h2 class="random_number">
+                  <span class="counter_number">20 Ml</span>
+                </h2>
+                <span class="title">Project Completed</span>
+              </div>
+            </div>
+          </div>
+          <div class="col3">
+            <div class="dlab_content">
+              <div class="icon_radius">
+                <span class="icon_cell">
+                  <i class="flaticon-smile"></i>
+                </span>
+              </div>
+              <div class="icon_content">
+                <h2 class="random_number">
+                  <span class="counter_number">30 Ml</span>
+                </h2>
+                <span class="title">Project Lunched</span>
+              </div>
+            </div>
+          </div>
+          <div class="col3">
+            <div class="dlab_content">
+              <div class="icon_radius">
+                <span class="icon_cell">
+                  <i class="flaticon-smile"></i>
+                </span>
+              </div>
+              <div class="icon_content">
+                <h2 class="random_number">
+                  <span
+                    class="counter_number"
+                    data-min="1"
+                    data-max="50"
+                    data-delay="5"
+                    data-increment="10"
+                    >50</span
+                  >
+                </h2>
+                <span class="title">Years Completed</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Services -->
     <section class="service">
-        <div class="container">
-            <div class="row">
-                <div class="col6">
-                    <div class="section_head">
-                        <h6 class="sub_title">Our Features</h6>
-                        <h2 class="title">Behind The Story Of Samar Agency</h2>
-                    </div>
-                    <div class="icon_wraper">
-                        <div class="icon_radius">
-                            <a href="#" class="icon_cell">
-                                <i class="flaticon-idea"></i>
-                            </a>
-                        </div>
-                        <div class="icon_content">
-                            <h4 class="dlab_title">Idea & Analysis Gathering</h4>
-                            <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="icon_wraper">
-                        <div class="icon_radius">
-                            <a href="#" class="icon_cell">
-                                <i class="flaticon-idea"></i>
-                            </a>
-                        </div>
-                        <div class="icon_content">
-                            <h4 class="dlab_title">Design & Developing</h4>
-                            <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="icon_wraper">
-                        <div class="icon_radius">
-                            <a href="#" class="icon_cell">
-                                <i class="flaticon-idea"></i>
-                            </a>
-                        </div>
-                        <div class="icon_content">
-                            <h4 class="dlab_title">Testing & Lunching</h4>
-                            <p>Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl leo, sit amet consequat augue.
-                            </p>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class="col6">
-                    <div class="image">
-                        <img src="./images/pic3.png" class="move_2" alt="">
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col6">
+            <div class="section_head">
+              <h6 class="sub_title">Our Features</h6>
+              <h2 class="title">Behind The Story Of Samar Agency</h2>
             </div>
+            <div class="icon_wraper">
+              <div class="icon_radius">
+                <a href="#" class="icon_cell">
+                  <i class="flaticon-idea"></i>
+                </a>
+              </div>
+              <div class="icon_content">
+                <h4 class="dlab_title">Idea & Analysis Gathering</h4>
+                <p>
+                  Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
+                  leo, sit amet consequat augue.
+                </p>
+              </div>
+            </div>
+            <div class="icon_wraper">
+              <div class="icon_radius">
+                <a href="#" class="icon_cell">
+                  <i class="flaticon-idea"></i>
+                </a>
+              </div>
+              <div class="icon_content">
+                <h4 class="dlab_title">Design & Developing</h4>
+                <p>
+                  Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
+                  leo, sit amet consequat augue.
+                </p>
+              </div>
+            </div>
+            <div class="icon_wraper">
+              <div class="icon_radius">
+                <a href="#" class="icon_cell">
+                  <i class="flaticon-idea"></i>
+                </a>
+              </div>
+              <div class="icon_content">
+                <h4 class="dlab_title">Testing & Lunching</h4>
+                <p>
+                  Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
+                  leo, sit amet consequat augue.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col6">
+            <div class="image">
+              <img src="./images/pic3.png" class="move_2" alt="" />
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Projects -->
     <section class="project">
-        <div class="container">
-            <div class="section_head">
-                <h6 class="sub_title">Portfolio</h6>
-                <h2 class="title">Our Latest Work</h2>
-            </div>
-            <div class="clearfix">
-                <div class="row_gallary">
-                    <div class="col10">
-                        <div class="dlab_box overlay-shine">
-                            <div class="dlab_media">
-                                <img src="./images/pic1_2.jpg" alt="">
-                            </div>
-                            <span class="lightimg">
-                                <i class="la la-plus"></i>
-                            </span>
-                            <div class="dlab_info">
-                                <h5 class="title">
-                                    <a href="#">Software Landing</a>
-                                </h5>
-                                <p class="post_author">
-                                    By
-                                    <a href="#">Jhone Doe</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col11">
-                        <div class="dlab_box">
-                            <div class="dlab_media">
-                                <img src="./images/pic2_1.jpg" alt="">
-                            </div>
-                            <span class="lightimg">
-                                <i class="la la-plus"></i>
-                            </span>
-                            <div class="dlab_info">
-                                <h5 class="title">
-                                    <a href="#">Software Landing</a>
-                                </h5>
-                                <p class="post_author">
-                                    By
-                                    <a href="#">Jhone Doe</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col10">
-                        <div class="row">
-                            <div class="dlab_box">
-                                <div class="dlab_media">
-                                    <img src="./images/pic3_1.jpg" alt="">
-                                </div>
-                                <span class="lightimg">
-                                    <i class="la la-plus"></i>
-                                </span>
-                                <div class="dlab_info">
-                                    <h5 class="title">
-                                        <a href="#">Software Landing</a>
-                                    </h5>
-                                    <p class="post_author">
-                                        By
-                                        <a href="#">Jhone Doe</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="dlab_box">
-                                <div class="dlab_media">
-                                    <img src="./images/pic4.jpg" alt="">
-                                </div>
-                                <span class="lightimg">
-                                    <i class="la la-plus"></i>
-                                </span>
-                                <div class="dlab_info">
-                                    <h5 class="title">
-                                        <a href="#">Software Landing</a>
-                                    </h5>
-                                    <p class="post_author">
-                                        By
-                                        <a href="#">Jhone Doe</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="dlab_box">
-                                <div class="dlab_media">
-                                    <img src="./images/pic5.jpg" alt="">
-                                </div>
-                                <span class="lightimg">
-                                    <i class="la la-plus"></i>
-                                </span>
-                                <div class="dlab_info">
-                                    <h5 class="title">
-                                        <a href="#">Software Landing</a>
-                                    </h5>
-                                    <p class="post_author">
-                                        By
-                                        <a href="#">Jhone Doe</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col11">
-                        <div class="dlab_box">
-                            <div class="dlab_media">
-                                <img src="./images/pic6.jpg" alt="">
-                            </div>
-                            <span class="lightimg">
-                                <i class="la la-plus"></i>
-                            </span>
-                            <div class="dlab_info">
-                                <h5 class="title">
-                                    <a href="#">Software Landing</a>
-                                </h5>
-                                <p class="post_author">
-                                    By
-                                    <a href="#">Jhone Doe</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section_head">
+          <h6 class="sub_title">Portfolio</h6>
+          <h2 class="title">Our Latest Work</h2>
         </div>
+        <div class="clearfix">
+          <div class="row_gallary">
+            <div class="col10">
+              <div class="dlab_box overlay-shine">
+                <div class="dlab_media">
+                  <img src="./images/pic1_2.jpg" alt="" />
+                </div>
+                <span class="lightimg">
+                  <i class="la la-plus"></i>
+                </span>
+                <div class="dlab_info">
+                  <h5 class="title">
+                    <a href="#">Software Landing</a>
+                  </h5>
+                  <p class="post_author">
+                    By
+                    <a href="#">Jhone Doe</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col11">
+              <div class="dlab_box">
+                <div class="dlab_media">
+                  <img src="./images/pic2_1.jpg" alt="" />
+                </div>
+                <span class="lightimg">
+                  <i class="la la-plus"></i>
+                </span>
+                <div class="dlab_info">
+                  <h5 class="title">
+                    <a href="#">Software Landing</a>
+                  </h5>
+                  <p class="post_author">
+                    By
+                    <a href="#">Jhone Doe</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col10">
+              <div class="row">
+                <div class="dlab_box">
+                  <div class="dlab_media">
+                    <img src="./images/pic3_1.jpg" alt="" />
+                  </div>
+                  <span class="lightimg">
+                    <i class="la la-plus"></i>
+                  </span>
+                  <div class="dlab_info">
+                    <h5 class="title">
+                      <a href="#">Software Landing</a>
+                    </h5>
+                    <p class="post_author">
+                      By
+                      <a href="#">Jhone Doe</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="dlab_box">
+                  <div class="dlab_media">
+                    <img src="./images/pic4.jpg" alt="" />
+                  </div>
+                  <span class="lightimg">
+                    <i class="la la-plus"></i>
+                  </span>
+                  <div class="dlab_info">
+                    <h5 class="title">
+                      <a href="#">Software Landing</a>
+                    </h5>
+                    <p class="post_author">
+                      By
+                      <a href="#">Jhone Doe</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="dlab_box">
+                  <div class="dlab_media">
+                    <img src="./images/pic5.jpg" alt="" />
+                  </div>
+                  <span class="lightimg">
+                    <i class="la la-plus"></i>
+                  </span>
+                  <div class="dlab_info">
+                    <h5 class="title">
+                      <a href="#">Software Landing</a>
+                    </h5>
+                    <p class="post_author">
+                      By
+                      <a href="#">Jhone Doe</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col11">
+              <div class="dlab_box">
+                <div class="dlab_media">
+                  <img src="./images/pic6.jpg" alt="" />
+                </div>
+                <span class="lightimg">
+                  <i class="la la-plus"></i>
+                </span>
+                <div class="dlab_info">
+                  <h5 class="title">
+                    <a href="#">Software Landing</a>
+                  </h5>
+                  <p class="post_author">
+                    By
+                    <a href="#">Jhone Doe</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Our Pricing -->
     <section class="price">
-        <div class="container">
-            <div class="section_head">
-                <h6 class="sub_title">Choose Your Plan</h6>
-                <h2 class="title">Choose Your Plan</h2>
-            </div>
-            <div class="toggle_tabs">
-                <span class="monthly">Monthly</span>
-                <span class="yearly">Yearly</span>
-            </div>
-            <div class="pricingtable_row">
-                <div class="row">
-                    <div class="col4">
-                        <div class="pricingtable_wrapper">
-                            <div class="pricingtable_inner">
-                                <div class="pricingtable_title">
-                                    <h3>Basic Plan</h3>
-                                </div>
-                                <div class="pricingtable_media">
-                                    <img src="./images/pic4_1.jpg" width="125" alt="">
-                                </div>
-                                <div class="pricingtable_price_month">
-                                    <h2 class="pricingtable_bx">$49
-                                        <small class="pricingtable_type">/Month</small>
-                                    </h2>
-                                </div>
-                                <ul class="pricingtable_futures">
-                                    <li>Graphic Design </li>
-                                    <li>Web Design</li>
-                                    <li>UI/UX</li>
-                                    <li>HTML/CSS</li>
-                                    <li>SEO Marketing</li>
-                                    <li>Business Analysis</li>
-                                </ul>
-                                <div class="pricingtable_footer">
-                                    <a href="#">Start Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col4">
-                        <div class="pricingtable_wrapper">
-                            <div class="pricingtable_inner">
-                                <div class="pricingtable_title">
-                                    <h3>Standart Plan</h3>
-                                </div>
-                                <div class="pricingtable_media">
-                                    <img src="./images/pic5_1.jpg" width="125" alt="">
-                                </div>
-                                <div class="pricingtable_price_month">
-                                    <h2 class="pricingtable_bx">$99
-                                        <small class="pricingtable_type">/Month</small>
-                                    </h2>
-                                </div>
-                                <ul class="pricingtable_futures">
-                                    <li>Graphic Design </li>
-                                    <li>Web Design</li>
-                                    <li>UI/UX</li>
-                                    <li>HTML/CSS</li>
-                                    <li>SEO Marketing</li>
-                                    <li>Business Analysis</li>
-                                </ul>
-                                <div class="pricingtable_footer">
-                                    <a href="#">Start Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col4">
-                        <div class="pricingtable_wrapper">
-                            <div class="pricingtable_inner">
-                                <div class="pricingtable_title">
-                                    <h3>Premium Plan</h3>
-                                </div>
-                                <div class="pricingtable_media">
-                                    <img src="./images/pic6_1.jpg" width="125" alt="">
-                                </div>
-                                <div class="pricingtable_price_month">
-                                    <h2 class="pricingtable_bx">$149
-                                        <small class="pricingtable_type">/Month</small>
-                                    </h2>
-                                </div>
-                                <ul class="pricingtable_futures">
-                                    <li>Graphic Design </li>
-                                    <li>Web Design</li>
-                                    <li>UI/UX</li>
-                                    <li>HTML/CSS</li>
-                                    <li>SEO Marketing</li>
-                                    <li>Business Analysis</li>
-                                </ul>
-                                <div class="pricingtable_footer">
-                                    <a href="#">Start Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section_head">
+          <h6 class="sub_title">Choose Your Plan</h6>
+          <h2 class="title">Choose Your Plan</h2>
         </div>
+        <div class="toggle_tabs">
+          <span class="monthly">Monthly</span>
+          <span class="yearly">Yearly</span>
+        </div>
+        <div class="pricingtable_row">
+          <div class="row">
+            <div class="col4">
+              <div class="pricingtable_wrapper">
+                <div class="pricingtable_inner">
+                  <div class="pricingtable_title">
+                    <h3>Basic Plan</h3>
+                  </div>
+                  <div class="pricingtable_media">
+                    <img src="./images/pic4_1.jpg" width="125" alt="" />
+                  </div>
+                  <div class="pricingtable_price_month">
+                    <h2 class="pricingtable_bx">
+                      $49
+                      <small class="pricingtable_type">/Month</small>
+                    </h2>
+                  </div>
+                  <ul class="pricingtable_futures">
+                    <li>Graphic Design</li>
+                    <li>Web Design</li>
+                    <li>UI/UX</li>
+                    <li>HTML/CSS</li>
+                    <li>SEO Marketing</li>
+                    <li>Business Analysis</li>
+                  </ul>
+                  <div class="pricingtable_footer">
+                    <a href="#">Start Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col4">
+              <div class="pricingtable_wrapper">
+                <div class="pricingtable_inner">
+                  <div class="pricingtable_title">
+                    <h3>Standart Plan</h3>
+                  </div>
+                  <div class="pricingtable_media">
+                    <img src="./images/pic5_1.jpg" width="125" alt="" />
+                  </div>
+                  <div class="pricingtable_price_month">
+                    <h2 class="pricingtable_bx">
+                      $99
+                      <small class="pricingtable_type">/Month</small>
+                    </h2>
+                  </div>
+                  <ul class="pricingtable_futures">
+                    <li>Graphic Design</li>
+                    <li>Web Design</li>
+                    <li>UI/UX</li>
+                    <li>HTML/CSS</li>
+                    <li>SEO Marketing</li>
+                    <li>Business Analysis</li>
+                  </ul>
+                  <div class="pricingtable_footer">
+                    <a href="#">Start Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col4">
+              <div class="pricingtable_wrapper">
+                <div class="pricingtable_inner">
+                  <div class="pricingtable_title">
+                    <h3>Premium Plan</h3>
+                  </div>
+                  <div class="pricingtable_media">
+                    <img src="./images/pic6_1.jpg" width="125" alt="" />
+                  </div>
+                  <div class="pricingtable_price_month">
+                    <h2 class="pricingtable_bx">
+                      $149
+                      <small class="pricingtable_type">/Month</small>
+                    </h2>
+                  </div>
+                  <ul class="pricingtable_futures">
+                    <li>Graphic Design</li>
+                    <li>Web Design</li>
+                    <li>UI/UX</li>
+                    <li>HTML/CSS</li>
+                    <li>SEO Marketing</li>
+                    <li>Business Analysis</li>
+                  </ul>
+                  <div class="pricingtable_footer">
+                    <a href="#">Start Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Blog -->
     <section class="blog">
-        <div class="container">
-            <div class="testimonial-content">
-                <!-- Swiper -->
-                <div class="swiper-container testimonial-thumbs">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-pic">
-                                <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic1.jpg" alt="">
-                                <div class="shape-bx"></div>
-                            </div>
-
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-pic">
-                                <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic2.jpg" alt="">
-                                <div class="shape-bx"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-pic">
-                                <img src="https://samar.dexignzone.com/xhtml/images/testimonials/pic3.jpg" alt="">
-                                <div class="shape-bx"></div>
-                            </div>
-                        </div>
-                    </div>
-
+      <div class="container">
+        <div class="testimonial-content">
+          <!-- Swiper -->
+          <div class="swiper-container testimonial-thumbs">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-pic">
+                  <img
+                    src="https://samar.dexignzone.com/xhtml/images/testimonials/pic1.jpg"
+                    alt=""
+                  />
+                  <div class="shape-bx"></div>
                 </div>
-
-                <div class="swiper-container testimonial-comment">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-text">
-                                <strong class="testimonial-name">Cak Dikin 1</strong>
-                                <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
-                                <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non
-                                    vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc.
-                                    Etiam sed facilisis erat.</p>
-                            </div>
-
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-text">
-                                <strong class="testimonial-name">Cak Dikin 2</strong>
-                                <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
-                                <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non
-                                    vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc.
-                                    Etiam sed facilisis erat.</p>
-                            </div>
-
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-text">
-                                <strong class="testimonial-name">Cak Dikin 3</strong>
-                                <span class="testimonial-position text-primary m-b20">CEO &amp; Founder </span>
-                                <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non
-                                    vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc.
-                                    Etiam sed facilisis erat.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-pic">
+                  <img
+                    src="https://samar.dexignzone.com/xhtml/images/testimonials/pic2.jpg"
+                    alt=""
+                  />
+                  <div class="shape-bx"></div>
                 </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-pic">
+                  <img
+                    src="https://samar.dexignzone.com/xhtml/images/testimonials/pic3.jpg"
+                    alt=""
+                  />
+                  <div class="shape-bx"></div>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="swiper-container testimonial-comment">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-text">
+                  <strong class="testimonial-name">Cak Dikin 1</strong>
+                  <span class="testimonial-position text-primary m-b20"
+                    >CEO &amp; Founder
+                  </span>
+                  <p>
+                    Duis feugiat est tincidunt ligula maximus convallis. Aenean
+                    ultricies, mi non vestibulum auctor, erat tortor porttitor
+                    ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
+                    erat.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-text">
+                  <strong class="testimonial-name">Cak Dikin 2</strong>
+                  <span class="testimonial-position text-primary m-b20"
+                    >CEO &amp; Founder
+                  </span>
+                  <p>
+                    Duis feugiat est tincidunt ligula maximus convallis. Aenean
+                    ultricies, mi non vestibulum auctor, erat tortor porttitor
+                    ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
+                    erat.
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-text">
+                  <strong class="testimonial-name">Cak Dikin 3</strong>
+                  <span class="testimonial-position text-primary m-b20"
+                    >CEO &amp; Founder
+                  </span>
+                  <p>
+                    Duis feugiat est tincidunt ligula maximus convallis. Aenean
+                    ultricies, mi non vestibulum auctor, erat tortor porttitor
+                    ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
+                    erat.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
+      </div>
     </section>
 
-
     <!-- Bootstrap JQuery -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/jquery.countup.min.js"></script>
-
 
     <!-- <script src="jquery.numscroller-1.0.js"></script>
    
@@ -626,6 +752,5 @@
     </a>
     <script src="./js/util.js"></script>
     <script src="./js/main.js"></script> -->
-</body>
-
+  </body>
 </html>
